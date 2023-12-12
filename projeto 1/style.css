@@ -1,0 +1,35 @@
+body {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+}
+#hero{
+    width: 592px;
+    margin: 0 auto 72px;
+}
+span, a{
+    color: #FF9900;
+    
+}
+p{
+    color: #7D7987;
+}
+
+a + a {
+    margin-left: 28px;
+}
+#line{
+    width: 568px;
+    height: 0px;
+    margin: 0 auto 8px;
+    border: 1px solid #FF9900;
+}
+#balls {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
