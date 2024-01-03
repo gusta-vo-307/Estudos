@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.page{
+    width: 1000px;
+    margin: 65px auto 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-bottom: 55px;
+    
+}
+ul{
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    list-style: none;
+    gap: 48px; 
+    align-items: center;
+}
+ul li a {
+    text-decoration: none; /* para tirar o sublinhado do da tag link */
+    color: #1F1534;
+}
+
+ul li a:hover{
+    font-weight: bold;
+}
+h1, ul{
+    font-family: 'Mulish', sans-serif;
+}
+h1{
+    font-size: 49px;
+    line-height: 56px;
+    color: #1F1534;
+    font-weight: normal;
+    width: 490px;
+}
+h1 span{
+    color: #89c5cc;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+p{
+    font-size: 14px;
+    line-height: 28px;
+    color:#7d7987 ;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+button{
+    text-transform: uppercase; /*texto em caixa alta*/
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 4px;
+   
+    background: #69B99D;
+    border: none;
+    color: #F9F9F9 ;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    gap: 10px ;
+    cursor: pointer;
+}
+button:hover{
+    background: #419477;
+}
+footer{
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 80px;
+}
+footer a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #1F1534;
+    font-family: 'Open Sans', sans-serif;
+
+}
