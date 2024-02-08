@@ -1,0 +1,63 @@
+body {
+    background-color: #2F2E41;
+    color: aliceblue;
+
+    font-family: 'JetBrains Mono', monospace;
+
+}
+
+header {
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+header,
+a {
+    padding: 0 22px;
+    color: aliceblue;
+    font-weight: bold;
+}
+ul, a:hover{
+    color: rgb(146, 113, 170);
+
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 70px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+span {
+    color: #00BFA6;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer, img{
+    padding: 30px;
+    position: relative;
+}

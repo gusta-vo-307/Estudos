@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    background: #eaeaea;
+    font-family: 'Roboto', sans-serif;
+  }
+:root{
+    font-size: 62,5%;
+}
+fieldset{
+    border: none;
+    background-color: white;
+    margin: 1.9rem;
+    border-radius: 10px;
+    max-width: 90.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.ingredientes,
+.modo-de-preparo{
+    line-height: 2.6rem;
+    margin-top: 4.4rem;
+    margin-left: 4.4rem;
+}
+img{
+    width: 100% ;
+    height: 25.0rem;
+    border-radius: 10px;
+}
+figcaption{
+    text-align: end;
+    color: rgb(114, 114, 114);
+}
+h1{
+    margin: 2.1rem;
+    font-size: 2.8rem;
+}
+h2{
+    font-size: 2.0rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+p{
+    text-align: center;
+    margin-bottom: 2.1rem;
+}

@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    font-size: 65, 2%;
+    --blue-color: #8285da;
+}
+
+.profile_image {
+    margin-top: 12.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.6rem;
+}
+#instagram{
+    margin: 1.8rem;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/19670/pexels-photo.jpg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-19670.jpg&fm=jpg&_gl=1*hvv3ux*_ga*MTYwMjA0MTE3My4xNjk0Mjk1MjQy*_ga_8JE65Q40S6*MTcwNTU0MDg4Ni4zLjEuMTcwNTU0MDkwMS4wLjAuMA..);
+    background-repeat: none;
+    background-position: center;
+    display: flex;
+
+    font-family: 'Poppins', sans-serif;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border: solid 2px var(--blue-color);
+    padding-block: 5px;
+    padding-inline: 5px;
+
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link-button{
+    display: flex;
+    flex-direction: column;
+
+}
+.link-button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+    font-weight: bolder;
+
+    color: var(--blue-color);
+    margin-bottom: 1.6rem;    
+    
+    background-color: white;
+    opacity: 70%;
+    
+    border: 2px solid var(--blue-color);
+    width: 326px;
+    height: 49px;
+}

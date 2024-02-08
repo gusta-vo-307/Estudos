@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    align-items: center;
+}
+
+#hero{
+    margin: 3.5rem auto 7.2rem ;
+    width: 626px;
+}
+h1{
+    font-size: 32px;
+    font-family: 'Dosis', sans-serif;
+}
+span{
+    color: #EE24FF;
+}
+p{
+    width: 540px;
+    height: 107;
+    color: #828282;
+}
+a{
+    font-size: 1.1rem;
+    padding: 16px;
+    color: #3F3D56 ;
+    margin-bottom: 15px;
+}
+strong{
+    color: #3F3D56;
+}
+footer{
+    
+    margin-bottom: 0px;
+}
